@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E871186A198E1920000A884B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8711869198E1920000A884B /* Foundation.framework */; };
+		E871186F198E1920000A884B /* libDAASLLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E871186E198E1920000A884B /* libDAASLLogger.h */; };
+		E8711871198E1920000A884B /* libDAASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E8711870198E1920000A884B /* libDAASLLogger.m */; };
+		E8711878198E1920000A884B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8711877198E1920000A884B /* XCTest.framework */; };
+		E8711879198E1920000A884B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8711869198E1920000A884B /* Foundation.framework */; };
+		E871187B198E1920000A884B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E871187A198E1920000A884B /* UIKit.framework */; };
+		E871187E198E1920000A884B /* liblibDAASLLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8711866198E1920000A884B /* liblibDAASLLogger.a */; };
+		E8711884198E1920000A884B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8711882198E1920000A884B /* InfoPlist.strings */; };
+		E8711886198E1920000A884B /* libDAASLLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8711885198E1920000A884B /* libDAASLLoggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E871187C198E1920000A884B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E871185E198E1920000A884B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8711865198E1920000A884B;
+			remoteInfo = libDAASLLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8711864198E1920000A884B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E871186F198E1920000A884B /* libDAASLLogger.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E8711866198E1920000A884B /* liblibDAASLLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibDAASLLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8711869198E1920000A884B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E871186D198E1920000A884B /* libDAASLLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libDAASLLogger-Prefix.pch"; sourceTree = "<group>"; };
+		E871186E198E1920000A884B /* libDAASLLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libDAASLLogger.h; sourceTree = "<group>"; };
+		E8711870198E1920000A884B /* libDAASLLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libDAASLLogger.m; sourceTree = "<group>"; };
+		E8711876198E1920000A884B /* libDAASLLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libDAASLLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8711877198E1920000A884B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E871187A198E1920000A884B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8711881198E1920000A884B /* libDAASLLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libDAASLLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		E8711883198E1920000A884B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8711885198E1920000A884B /* libDAASLLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libDAASLLoggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8711863198E1920000A884B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E871186A198E1920000A884B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8711873198E1920000A884B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8711878198E1920000A884B /* XCTest.framework in Frameworks */,
+				E871187E198E1920000A884B /* liblibDAASLLogger.a in Frameworks */,
+				E871187B198E1920000A884B /* UIKit.framework in Frameworks */,
+				E8711879198E1920000A884B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E871185D198E1920000A884B = {
+			isa = PBXGroup;
+			children = (
+				E871186B198E1920000A884B /* libDAASLLogger */,
+				E871187F198E1920000A884B /* libDAASLLoggerTests */,
+				E8711868198E1920000A884B /* Frameworks */,
+				E8711867198E1920000A884B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8711867198E1920000A884B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8711866198E1920000A884B /* liblibDAASLLogger.a */,
+				E8711876198E1920000A884B /* libDAASLLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8711868198E1920000A884B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8711869198E1920000A884B /* Foundation.framework */,
+				E8711877198E1920000A884B /* XCTest.framework */,
+				E871187A198E1920000A884B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E871186B198E1920000A884B /* libDAASLLogger */ = {
+			isa = PBXGroup;
+			children = (
+				E871186E198E1920000A884B /* libDAASLLogger.h */,
+				E8711870198E1920000A884B /* libDAASLLogger.m */,
+				E871186C198E1920000A884B /* Supporting Files */,
+			);
+			path = libDAASLLogger;
+			sourceTree = "<group>";
+		};
+		E871186C198E1920000A884B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E871186D198E1920000A884B /* libDAASLLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E871187F198E1920000A884B /* libDAASLLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8711885198E1920000A884B /* libDAASLLoggerTests.m */,
+				E8711880198E1920000A884B /* Supporting Files */,
+			);
+			path = libDAASLLoggerTests;
+			sourceTree = "<group>";
+		};
+		E8711880198E1920000A884B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8711881198E1920000A884B /* libDAASLLoggerTests-Info.plist */,
+				E8711882198E1920000A884B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8711865198E1920000A884B /* libDAASLLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8711889198E1920000A884B /* Build configuration list for PBXNativeTarget "libDAASLLogger" */;
+			buildPhases = (
+				E8711862198E1920000A884B /* Sources */,
+				E8711863198E1920000A884B /* Frameworks */,
+				E8711864198E1920000A884B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libDAASLLogger;
+			productName = libDAASLLogger;
+			productReference = E8711866198E1920000A884B /* liblibDAASLLogger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8711875198E1920000A884B /* libDAASLLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E871188C198E1920000A884B /* Build configuration list for PBXNativeTarget "libDAASLLoggerTests" */;
+			buildPhases = (
+				E8711872198E1920000A884B /* Sources */,
+				E8711873198E1920000A884B /* Frameworks */,
+				E8711874198E1920000A884B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E871187D198E1920000A884B /* PBXTargetDependency */,
+			);
+			name = libDAASLLoggerTests;
+			productName = libDAASLLoggerTests;
+			productReference = E8711876198E1920000A884B /* libDAASLLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E871185E198E1920000A884B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Doron Adler";
+			};
+			buildConfigurationList = E8711861198E1920000A884B /* Build configuration list for PBXProject "libDAASLLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E871185D198E1920000A884B;
+			productRefGroup = E8711867198E1920000A884B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8711865198E1920000A884B /* libDAASLLogger */,
+				E8711875198E1920000A884B /* libDAASLLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8711874198E1920000A884B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8711884198E1920000A884B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8711862198E1920000A884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8711871198E1920000A884B /* libDAASLLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8711872198E1920000A884B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8711886198E1920000A884B /* libDAASLLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E871187D198E1920000A884B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8711865198E1920000A884B /* libDAASLLogger */;
+			targetProxy = E871187C198E1920000A884B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8711882198E1920000A884B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8711883198E1920000A884B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8711887198E1920000A884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8711888198E1920000A884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E871188A198E1920000A884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libDAASLLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libDAASLLogger/libDAASLLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E871188B198E1920000A884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libDAASLLogger.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libDAASLLogger/libDAASLLogger-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E871188D198E1920000A884B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libDAASLLogger/libDAASLLogger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "libDAASLLoggerTests/libDAASLLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E871188E198E1920000A884B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libDAASLLogger/libDAASLLogger-Prefix.pch";
+				INFOPLIST_FILE = "libDAASLLoggerTests/libDAASLLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8711861198E1920000A884B /* Build configuration list for PBXProject "libDAASLLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8711887198E1920000A884B /* Debug */,
+				E8711888198E1920000A884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8711889198E1920000A884B /* Build configuration list for PBXNativeTarget "libDAASLLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E871188A198E1920000A884B /* Debug */,
+				E871188B198E1920000A884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E871188C198E1920000A884B /* Build configuration list for PBXNativeTarget "libDAASLLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E871188D198E1920000A884B /* Debug */,
+				E871188E198E1920000A884B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E871185E198E1920000A884B /* Project object */;
+}

@@ -1,0 +1,50 @@
+
+---------------------------------
+Contents of Xcode's debug console 
+---------------------------------
+Standard Error logging available (says "<AppDelegate: 0x16677cc0>")
+
+2014-07-29 15:00:28.277 DAASLLoggerUsageDemo[164:60b] Logger has been initialized
+2014-07-29 15:00:28.282 DAASLLoggerUsageDemo[164:60b] Folder created at: "/var/mobile/Applications/E6A78CA2-769B-4538-8413-7736998C7EC6/Library/Application Support"
+2014-07-29 15:00:28.284 DAASLLoggerUsageDemo[164:60b] Folder already exist at: "/var/mobile/Applications/E6A78CA2-769B-4538-8413-7736998C7EC6/Library/Caches"
+2014-07-29 15:00:28.285 DAASLLoggerUsageDemo[164:60b] Folder already exist at: "/var/mobile/Applications/E6A78CA2-769B-4538-8413-7736998C7EC6/Documents"
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Debug>: -[AppDelegate runDAASLLoggerUsageDemo] (55) Hello this is a sample DEBUG message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Info>: -[AppDelegate runDAASLLoggerUsageDemo] (56) Hello this is a sample INFO message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[AppDelegate runDAASLLoggerUsageDemo] (57) Hello this is a sample NOTICE message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: -[AppDelegate runDAASLLoggerUsageDemo] (58) Hello this is a sample WARNING message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Error>: -[AppDelegate runDAASLLoggerUsageDemo] (59) Hello this is a sample ERROR message
+2014-07-29 15:00:28.381 DAASLLoggerUsageDemo[164:60b] 
+Hello, I'm NSLog and I'm different than the other log messages. Oh by the way, check out "/var/mobile/Applications/E6A78CA2-769B-4538-8413-7736998C7EC6/Library/Application Support/firstLogFile.log"
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke (64) Hello this is a sample NOTICE message called from a global queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke (65) Hello this is a sample WARNING message called from a global queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidLoad] (33) Oh mighty ASL, please acknolege my hubmle existence
+2014-07-29 15:00:28.394 DAASLLoggerUsageDemo[164:60b] 
+Hey there, I'm NSLog and check out "/var/mobile/Applications/E6A78CA2-769B-4538-8413-7736998C7EC6/Library/Application Support/secondtLogFile.log"
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewWillAppear:] (39) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidAppear:] (45) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (69) Hello this is a sample WARNING message called from the main queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Error>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (70) Hello this is a sample ERROR message called from the main queue
+
+-----------------------------
+Contents of firstLogFile.log
+-----------------------------
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[AppDelegate runDAASLLoggerUsageDemo] (57) Hello this is a sample NOTICE message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: -[AppDelegate runDAASLLoggerUsageDemo] (58) Hello this is a sample WARNING message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Error>: -[AppDelegate runDAASLLoggerUsageDemo] (59) Hello this is a sample ERROR message
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke (64) Hello this is a sample NOTICE message called from a global queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke (65) Hello this is a sample WARNING message called from a global queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidLoad] (33) Oh mighty ASL, please acknolege my hubmle existence
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewWillAppear:] (39) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidAppear:] (45) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (69) Hello this is a sample WARNING message called from the main queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Error>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (70) Hello this is a sample ERROR message called from the main queue
+
+--------------------------------
+Contents of secondtLogFile.log
+--------------------------------
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidLoad] (33) Oh mighty ASL, please acknolege my hubmle existence
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewWillAppear:] (39) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Notice>: -[ViewController viewDidAppear:] (45) animated = No
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Warning>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (69) Hello this is a sample WARNING message called from the main queue
+Jul 29 15:00:28 DEV-iPad-2-06763-Doron-Adler DAASLLoggerUsageDemo[164] <Error>: __38-[AppDelegate runDAASLLoggerUsageDemo]_block_invoke_2 (70) Hello this is a sample ERROR message called from the main queue
+ 
